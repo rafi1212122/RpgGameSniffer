@@ -1,0 +1,25 @@
+{
+  "name": "bhsr_sniffer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index --respawn --transpile-only",
+    "dev": "ts-node-dev index --respawn --transpile-only"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acfg": "^1.2.3",
+    "chalk": "^4.1.2",
+    "long": "^5.2.3",
+    "node-kcp-token": "github:memetrollsxd/node-kcp",
+    "protobufjs": "^7.2.3",
+    "ts-node": "^10.9.1",
+    "udp-proxy": "^1.2.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
